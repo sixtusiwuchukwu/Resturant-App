@@ -1,0 +1,35 @@
+body{
+    overflow-x: hidden;
+}
+.footer{
+   color:white;
+    background-color: rgb(61, 30, 61);
+}
+.flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.instagram{
+    width:30px;
+    height:30px;
+}
+.facebook{
+    width:30px;
+    height:30px;
+}
+.message{
+    background-color: rgb(60, 98, 131);
+    color:red;
+    font-size:20px;
+}
+
+.address{
+    width:100px;
+    text-align: center;
+}
+.copy{
+text-align: center;
+width:100%;
+padding: 20px;
+}

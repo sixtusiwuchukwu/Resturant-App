@@ -1,0 +1,33 @@
+.hi{
+    background-color: blueviolet;
+    color:white;
+    width:100px;
+    height: 50px;
+    margin-bottom:-22px;
+}
+.hi1{
+    background-color: blueviolet;
+    color:white;
+    width:100px;
+    height: 50px;
+    margin-bottom:-22px;
+    animation-name: flow1;
+    animation-duration: 2s;
+}
+.hi2{
+    animation-name: flow2;
+    animation-duration: 2s;
+    background-color: blueviolet;
+    color:white;
+    width:100px;
+    height: 50px;
+    margin-bottom:-22px;
+}
+@keyframes flow1{
+    from{transform: translateX(-100px)}
+    to{transform: translateX(0)}
+}
+@keyframes flow2{
+    from{transform: translateX(100px)}
+    to{transform: translateX(0)}
+}

@@ -1,0 +1,142 @@
+.main {
+  margin-top: 210px;
+  /* padding: 10px; */
+}
+.image1 {
+  width: 600px;
+  height: 400px;
+}
+.div1 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.div1:hover {
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.div2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.div2:hover {
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.image2 {
+  width: 600px;
+  height: 400px;
+}
+.div3 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.div3:hover {
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.image3 {
+  width: 600px;
+  height: 400px;
+}
+.div4 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.div4:hover {
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.image4 {
+  width: 600px;
+  height: 400px;
+}
+.div5 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.div5:hover {
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.image5 {
+  width: 600px;
+  height: 400px;
+}
+.div6 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.div6:hover {
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.image6 {
+  width: 600px;
+  height: 400px;
+}
+.text4 {
+  width: 600px;
+  word-break: break-all;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 20px;
+  margin-top: 50px;
+
+  font-family: "Zilla Slab", serif;
+}
+.text {
+  width: 600px;
+  word-break: break-all;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 50px;
+
+  font-family: "Zilla Slab", serif;
+}
+.text2 {
+  width: 600px;
+  word-break: break-all;
+  text-align: center;
+  /* margin-left: 0px; */
+  font-size: 20px;
+  margin-top: 50px;
+
+  font-family: "Zilla Slab", serif;
+}
+.text3 {
+  width: 600px;
+  word-break: break-all;
+  text-align: center;
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 50px;
+
+  font-family: "Zilla Slab", serif;
+}
+.text5 {
+  width: 600px;
+  word-break: break-all;
+  text-align: center;
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 50px;
+
+  font-family: "Zilla Slab", serif;
+}
+.text6 {
+  width: 600px;
+  word-break: break-all;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: "Zilla Slab", serif;
+  /* line-height: 0.5pc; */
+}
