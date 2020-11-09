@@ -13,40 +13,40 @@ const Menu = () => {
       image: image1,
       amount: "120",
       quantity: 1,
-      total: 120
+      total: 120,
     },
     {
       image: image,
       amount: "160",
       quantity: 1,
-      total: 160
+      total: 160,
     },
     {
       image: image1,
       amount: "260",
       quantity: 1,
-      total: 260
+      total: 260,
     },
     {
       image: image1,
       amount: "160",
       quantity: 1,
-      total: 160
+      total: 160,
     },
     {
       image: image,
       amount: "160",
       quantity: 1,
-      total: 160
+      total: 160,
     },
     {
       image: image1,
       amount: "160",
       quantity: 1,
-      total: 160
-    }
+      total: 160,
+    },
   ]);
-  const Sendtocart = item => {
+  const Sendtocart = (item) => {
     const each = Data[item];
     SetCart([...cart, each]);
     const prev = JSON.parse(localStorage.getItem("cart"));
@@ -80,7 +80,11 @@ const Menu = () => {
             <h2 className="btn">Reserve</h2>
           </Link>
           <Link to="/cart">
-            <button className="cart">🛒</button>
+            <button className="cart">
+              <span role="img" aria-labelledby="cart">
+                🛒
+              </span>
+            </button>
           </Link>
         </div>
       </div>

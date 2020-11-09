@@ -2,26 +2,22 @@ import React, { useState, useEffect } from "react";
 import Footer from "./footer";
 import "../styles/cart.css";
 
-const Cart = props => {
+const Cart = (props) => {
   const { history } = props;
   const [Item, setItem] = useState([]);
   const [Total] = useState(0);
   const [Quantityprice, setQuantityprice] = useState(0);
 
-  const Handledelete = del => {
+  const Handledelete = (del) => {
     const deletingitem = Item[del];
-    const itemsremained = Item.filter(item => item !== deletingitem);
+    const itemsremained = Item.filter((item) => item !== deletingitem);
     setItem(itemsremained);
     localStorage.setItem("cart", JSON.stringify(itemsremained));
   };
 
-  let get = () => {
+  useEffect(() => {
     let item = JSON.parse(localStorage.getItem("cart"));
     setItem(item);
-  };
-
-  useEffect(async () => {
-    await get();
   }, []);
   return (
     <div>
@@ -69,12 +65,11 @@ const Cart = props => {
                       className="quantity"
                       type="number"
                       min="1"
-                      onChange={e => {
+                      onChange={(e) => {
                         let value = e.target.value;
                         let cost = parseFloat(items.amount) * parseFloat(value);
                         items.total = cost;
                         console.log(items.total);
-                        
                       }}
                     />
                     <li>{`$${items.total}`}</li>

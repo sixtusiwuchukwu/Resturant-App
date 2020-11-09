@@ -10,7 +10,7 @@ import Menu from "./components/menu";
 import Reserve from "./components/reserve";
 import Cart from "./components/cart";
 
-const Pagenotfound = props => {
+const Pagenotfound = (props) => {
   const { history } = props;
   return (
     <center>

@@ -6,7 +6,7 @@ import logo from "../images/logo.png";
 const Login = () => {
   const schema = {
     username: "",
-    password: ""
+    password: "",
   };
   const [user, setUser] = useState(schema);
 
@@ -39,7 +39,7 @@ const Login = () => {
             onChange={Handlechange}
             value={user.password}
           />
-          <a href="#">Forgot password?</a>
+          <a href="/#">Forgot password?</a>
           <Link to="/menu">
             {" "}
             <button className="login-btn">Login</button>
